@@ -13,30 +13,175 @@
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+    <link href="css/style1.css" rel="stylesheet">
   </head>
 
-  <body class="text-center">
+<body>
+    <div class="container">
+        <!-- nav bar -->
+        <div class="navbar">
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">Carell Ayanna Hamil</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">About Me</a>
-            <a class="nav-link" href="#">Contact</a>
-          </nav>
-        </div>
-      </header>
+            <ul style="padding-left: 0px;">
 
-      <footer class="mastfoot mt-auto">
-        <div class="inner">
-          <p>Carell Ayanna Hamil</p>
+                <li class="logo"> <a href="#"> carell ayanna hamil </a> </li>
+
+                <section class="div_navbar_items">
+                    <li class="navbar_items"> <a href="#intro"> about me </a> </li>
+                    <li class="navbar_items"> <a href="#skills"> skills </a> </li>
+                    <li class="navbar_items"> <a href="#projects"> projects </a> </li>
+                    <li class="navbar_items"> <a href="#contact"> contact </a> </li>
+                </section>
+
+                <li class="icon">
+                    <a id="icon" href="#" onclick="navBarFunction()"> &#9776;</a>
+                </li>
+            </ul>
         </div>
-      </footer>
+        <!-- closing navbar -->
+
+        <!-- closing div -->
+        <div id="intro">
+            <h1 class="styled_intro"></h1>
+            <p></a>
+            <p> <a href="" class="links"></a><a href="#projects" class="links"></a></p>
+
+        </div>
+        <!-- closing intro div -->
+
+        <!-- skills div -->
+        <div id="skills">
+
+            <h1 class="styled_intro"> Skills </h1>
+            <div class="skill_tabs">
+
+                <ul class="tabs" style="padding-left:0px">
+                    <li id="tab1" class="tab" onclick="activeTab('tab1')"></li>
+                    <li id="tab2" class="tab" onclick="activeTab('tab2')"></li>
+                    <li id="tab3" class="tab" onclick="activeTab('tab3')"></li>
+                    <li id="tab4" class="tab" onclick="activeTab('tab4')"></li>
+                </ul>
+
+                <div class="tab_content">
+                    <div id="tab1_content">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <!-- closes tab 1 content -->
+                    </div>
+
+                    <div id="tab2_content">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <!-- closes tab 2 content -->
+                    </div>
+
+                    <div id="tab3_content">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <!-- closes tab 3 content -->
+                    </div>
+
+                    <div id="tab4_content">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <!-- closes tab 4 content -->
+                    </div>
+
+                    <!-- closing tab content div -->
+                </div>
+
+            </div>
+            <!-- closing skill tabs div -->
+
+            <div class="skills_mobile">
+
+                <p> Programming </p>
+                <section class="skill_tab_mobile">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <p> Web Dev </p>
+                <section class="skill_tab_mobile">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <p> Design </p>
+                <section class="skill_tab_mobile">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+                <p> Misc. </p>
+                <section class="skill_tab_mobile">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </section>
+
+            </div>
+            <!-- closing skills mobile -->
+        </div>
+        <!-- closing skills div -->
+        <!-- projects div -->
+        <div id="projects">
+            <h1 class="styled_intro"> Projects </h1>
+            <ul id="projects_images" style="padding: 0;">
+                <li>
+                    <a></a>
+                </li>
+            </ul>
+            <div style="clear: both;"></div>
+        </div>
+        <!--  closing projects div -->
+        <!--  contact div -->
+        <div id="contact">
+            <h1 class="styled_intro"> Contact </h1>
+            <section>
+                <ul id='social_links' style="padding-left:0">
+                    <li>
+                        <a target="blank" href = ""><div class='entypo-facebook'></div></a>
+                        <span>Facebook</span>
+                    </li>
+                    <li>
+                        <a target="blank" href = ""><div class='entypo-linkedin'></div></a>
+                        <span>LinkedIn</span>
+                    </li>
+                    <li>
+                        <a target="blank" href = "#"><div class='entypo-github'></div></a>
+                        <span>Github</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <!-- closing contact div -->
     </div>
-
+    <!-- closing container div -->
+</body>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
